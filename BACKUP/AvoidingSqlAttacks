@@ -1,0 +1,3 @@
+-- VALUES ( '" . mysqli_escape_string($conn, $_POST['title'] ) . "' , '"
+    --             . mysqli_escape_string($conn, $_POST['content'] ) . "', '"
+    --             . mysqli_escape_string($conn, $_POST['published_at'] ) . "' )";
